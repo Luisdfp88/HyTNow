@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-panel titulo">
+        <div class="slds-panel__header">{fechaHoy}</div>
+    </div>
+    <div class="slds-panel ajustar leftCol">
+        <div class="slds-panel__header">Temperatura Actual</div>
+        <div class="numeroValor"> {temperature} </div>
+    </div>
+    <div class="slds-panel ajustar">
+        <div class="slds-panel__header">Humedad Actual</div>
+        <div class="numeroValor"> {humidity} </div>
+    </div>
+    <div class="slds-panel ajustar leftCol">
+        <div class="slds-panel__header">Temperatura Máxima</div>
+        <div class="numeroValor"> {highestTemperature} </div>
+    </div>
+    <div class="slds-panel ajustar">
+        <div class="slds-panel__header">Humedad Máxima</div>
+        <div class="numeroValor"> {highestHumidity} </div>
+    </div>  
+    <div class="slds-panel ajustar leftCol">
+        <div class="slds-panel__header">Temperatura Mínima</div>
+        <div class="numeroValor"> {lowestTemperature} </div>
+    </div>
+    <div class="slds-panel ajustar">
+        <div class="slds-panel__header">Humedad Mínima</div>
+        <div class="numeroValor"> {lowestHumidity} </div>
+    </div>
+</template>

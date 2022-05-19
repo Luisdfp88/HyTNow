@@ -1,0 +1,35 @@
+.numeroValor {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.titulo{
+    width: 100%;
+}
+
+.slds-panel__header{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+.slds-panel{
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+template{
+    padding-right: 0em;
+    border: 1px solid black;
+}
+
+.ajustar{
+    width: 49%;
+}
+
+.leftCol{
+    margin-right: 2%;
+}
